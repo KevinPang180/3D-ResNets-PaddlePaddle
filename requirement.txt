@@ -1,0 +1,5 @@
+此次论文复现参考并引用了PaddlePaddle库和部分3D ResNets论文代码的相关说明，其地址分别为：
+
+https://github.com/PaddlePaddle/PaddleHub
+
+https://github.com/kenshohara/3D-ResNets-PyTorch
