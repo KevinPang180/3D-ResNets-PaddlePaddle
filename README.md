@@ -16,7 +16,9 @@ https://arxiv.org/abs/2004.04968
 
 ## 1.1 本地环境配置
 - 首先，需要一台N卡的笔记本，然后配置好CUDA和cudnn。Linux环境下Arch系配置方式可参考https://www.bilibili.com/read/cv6438916?spm_id_from=333.788.b_636f6d6d656e74.7
-- 然后，安装paddlepaddle-gpu和pytorch。（PaddlePaddle安装可参考https://www.paddlepaddle.org.cn/install/quick；Pytorch建议直接用pip安装pip install torch torchvision）
+- 然后，安装paddlepaddle-gpu和pytorch。
+   - PaddlePaddle安装可参考 https://www.paddlepaddle.org.cn/install/quick
+   - Pytorch建议直接用pip安装 pip install torch torchvision）
 - 运行过程中如出现"No moudle..."，一般情况下表明你需要使用pip安装对应的包，或者需要调整文件目录结构以保证能够正确调用本地的py文件。
 
 ### 本地CUDA安装截图
