@@ -1,0 +1,51 @@
+[MODEL]
+name = "Res3D"
+format = "pkl"
+num_classes = 101
+seg_num = 1
+seglen = 8
+image_mean = [0.485, 0.456, 0.406]
+image_std = [0.229, 0.224, 0.225]
+num_layers = 50
+
+[TRAIN]
+epoch = 50
+short_size = 116
+target_size = 116
+num_reader_threads = 1
+buf_size = 1024
+batch_size = 36
+use_gpu = True
+num_gpus = 1
+filelist = "work/data/ucf_101/video/UCF-101_JPG/train.list"
+learning_rate = 0.01
+learning_rate_decay = 0.1
+l2_weight_decay = 1e-4
+momentum = 0.9
+total_videos = 80
+
+[VALID]
+short_size = 116
+target_size = 116
+num_reader_threads = 1
+buf_size = 1024
+batch_size = 1
+filelist = "work/data/ucf_101/video/UCF-101_JPG/val.list"
+
+[TEST]
+seg_num = 1
+short_size = 116
+target_size = 116
+num_reader_threads = 1
+buf_size = 1024
+batch_size = 1
+filelist = "work/data/ucf_101/video/UCF-101_JPG/test.list"
+
+[INFER]
+short_size = 116
+target_size = 116
+num_reader_threads = 1
+buf_size = 1024
+batch_size = 1
+filelist = "work/data/ucf_101/video/UCF-101_JPG/test.list"
+
