@@ -1248,7 +1248,11 @@ https://github.com/PaddlePaddle/PaddleHub
 
 https://github.com/kenshohara/3D-ResNets-PyTorch
 
-# AI Studio测试版公开项目
+# AI Studio公开项目
 如您想直接尝试运行优化，可前往AI Studio直接运行我公开的项目~
-https://aistudio.baidu.com/aistudio/projectdetail/917855
 
+测试版地址：https://aistudio.baidu.com/aistudio/projectdetail/917855
+
+项目地址：https://aistudio.baidu.com/aistudio/projectdetail/699826
+
+推荐优先运行测试版，流程相对会更清晰直观一些~
